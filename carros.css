@@ -1,67 +1,144 @@
-img{
-    width: 200px;
-}
 
-iframe{
-    width: 400px;
-    height: 300px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    background-color: darkgrey;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b22222;
+    color: white;
 }
 
-h1{
-    color: rgb(60, 35, 1);
+header{
+    background-image: linear-gradient(to left,#dcdcdc, #5e5d5d);
+    margin: 3px;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-h2{
-    color: rgb(93, 25, 25);
-}
-
-h1#prim{
+header h1{
+    color: black;
     text-align: center;
-    background-color: rgb(156, 143, 125);
+    text-shadow: 1px 1px 1px black;
 }
 
-p.com{
-    background-color: moccasin;
+header nav{
+    text-align: center;
+}
+
+nav{
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+nav a{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 800;
+    margin: 0 10px ;
+    padding: 5px;
+}
+
+nav a:hover{
+    color: #e6b1b1;
+}
+
+main{
+    background-image: linear-gradient(to top, #dcdcdc, #5e5d5d);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+main h2{
+text-align: center;
+
+}
+
+.divi{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.divi img{
+    width: 300px;
+    height: 200px;
+    border-radius: 100px;
+    transform: scale(0.9);
+    transition: transform 0.4s ease;
+}
+
+.divi img:hover{
+    transform: scale(1.2);
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.ytt{
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.ytt:hover{
+    transform: scale(1.2);
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+footer p{
+    text-align: center;
+}
+
+.ctt{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image:linear-gradient(to top,aqua,aquamarine) ;
     width: 200px;
-}
-
-.com > p{
-    display: none;
-}
-
-.com:hover > p{
-    display: block;
-    width: 200px;
-    background-color: blueviolet;
-    color: red;
-}
-
-.com:hover{
-    color: aqua;
-    background-color: black;
-}
-
-.lol{
-    border: 10px solid black;
-    width: 100px;
-}
-
-.ana{
-    border: 10px solid black;
-    width: 140px;  
-}
-
-#es{
-    text-align: justify;
+    padding: 5px;
+    margin: 5px;
 
 }
-.re{
-    background-color: rgb(153, 142, 119);
-    border: 5px solid 
-    rgb(28, 0, 40);
+
+.btt{
+border: 2px solid black;
+border-radius: 10px;
+padding: 2px;
+margin: 2px;
+width: 55px;
+background-color: #000000;
+box-shadow: 2px 2px 2px black;
+cursor: pointer;
+transition: 0.1s ease, 0.1s ease;
+}
+
+.btt:active{
+    transform: scale(0.96);
+    box-shadow: 0 2px 6px #00000033;
+}
+
+.btt:hover{
+    background-color: #b22222;
+    color: aliceblue;
 }
