@@ -1,0 +1,67 @@
+img{
+    width: 200px;
+}
+
+iframe{
+    width: 400px;
+    height: 300px;
+}
+
+body{
+    background-color: darkgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(60, 35, 1);
+}
+
+h2{
+    color: rgb(93, 25, 25);
+}
+
+h1#prim{
+    text-align: center;
+    background-color: rgb(156, 143, 125);
+}
+
+p.com{
+    background-color: moccasin;
+    width: 200px;
+}
+
+.com > p{
+    display: none;
+}
+
+.com:hover > p{
+    display: block;
+    width: 200px;
+    background-color: blueviolet;
+    color: red;
+}
+
+.com:hover{
+    color: aqua;
+    background-color: black;
+}
+
+.lol{
+    border: 10px solid black;
+    width: 100px;
+}
+
+.ana{
+    border: 10px solid black;
+    width: 140px;  
+}
+
+#es{
+    text-align: justify;
+
+}
+.re{
+    background-color: rgb(153, 142, 119);
+    border: 5px solid 
+    rgb(28, 0, 40);
+}

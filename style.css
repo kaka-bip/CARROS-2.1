@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: lightslategray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid  rgb(220, 23, 23);
+
+    padding: 10px;
+
+    margin: 20px 20px 40px 20px;
+
+    outline: 5px dashed salmon;
+}
+
+a{
+    border: 10px solid red;
+}
